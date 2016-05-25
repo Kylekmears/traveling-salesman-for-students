@@ -19,8 +19,8 @@ def pathDistance(path, coordinates):
     for i, item in enumerate(path):
         try:
             totalDistance += distance(coordinates[item],coordinates[path[i+1]])
-        except:
-            pass
+        except Exception as e:
+            print(e)
     return totalDistance
 
 if __name__ == '__main__':
