@@ -1,7 +1,7 @@
 # run this file in the same directory as CitiesCoordinates.txt
 
 def travelingSalesman(airports, coordinates):
-    # YOUR CODE HERE - try to generate a list of airports with the shortest path.
+    # YOUR CODE HERE - try to return a list of airports with the shortest path.
     # pathDistance([list of cities in specific order], coordinates) will
     # return the overall distance it took to travel to those cities in that
     # order.
