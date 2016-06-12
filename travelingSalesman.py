@@ -5,6 +5,7 @@ def travelingSalesman(airports, coordinates):
     # pathDistance([list of cities in specific order], coordinates) will
     # return the overall distance it took to travel to those cities in that
     # order.
+    # airports is a list of the cities to be used
     # Try to use all the cities in the list airports
 
 def distance(airPort1, airPort2):
